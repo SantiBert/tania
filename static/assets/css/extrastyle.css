@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+#headerTitle .title {
+  font-family: "Asap", sans-serif;
+  font-size: 3rem;
+  color: #FFE8C9;
+}
+#headerTitle h5 {
+  font-family: "Asap", sans-serif;
+  color: white;
+}
+#headerTitle .buttons {
+  display: flex;
+}
+#headerTitle .buttons a {
+  font-family: "Asap", sans-serif;
+  background-color: #F4BFA0;
+  align-items: flex-end;
+}
+
+.navbar {
+  background-color: #357F7E !important;
+}
+
+#sectionsNav ul li a {
+  font-size: 1rem;
+  font-family: "Asap", sans-serif;
+  color: #FFE8C9;
+}
+#sectionsNav ul li a:hover {
+  text-decoration: underline;
+}
+
+.text-overlay {
+  padding: 5%;
+}
+.text-overlay .title {
+  font-family: "Asap", sans-serif;
+  color: #357F7E;
+  font-size: 4rem;
+}
+
+.pre-footer-overlay {
+  padding: 6.5%;
+}
+.pre-footer-overlay .title {
+  font-family: "Asap", sans-serif;
+  color: #F48476;
+}
+
+.card {
+  box-shadow: none;
+}
+
+.card-img-bottom {
+  width: 50rem;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+.card-horizontal .card-body {
+  height: 13rem;
+  color: white;
+  align-self: end;
+  margin-top: 8em;
+  border-radius: 20px;
+}
+
+#card-1 .card-body {
+  background-color: #357F7E;
+}
+#card-1 .card-body .card-title {
+  color: #F4BFA0;
+  font-family: "Asap", sans-serif;
+}
+#card-1 .card-body .card-text {
+  color: white;
+  font-family: "Asap", sans-serif;
+}
+
+#card-2 .card-body {
+  background-color: #F4BFA0;
+}
+#card-2 .card-body .card-title {
+  color: #FFE8C9;
+  font-family: "Asap", sans-serif;
+}
+#card-2 .card-body .card-text {
+  color: white;
+  font-family: "Asap", sans-serif;
+}
+
+#card-3 {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 27rem;
+  border-radius: 20px;
+}
+#card-3 .card-body {
+  width: 350px;
+  background-color: #357F7E;
+  margin-top: 16rem;
+  margin-left: -2rem;
+  border-radius: 20px;
+}
+#card-3 .card-body .card-title {
+  font-family: "Asap", sans-serif;
+  color: #F48476;
+}
+#card-3 .card-body .card-text {
+  font-family: "Asap", sans-serif;
+  color: white;
+  font-size: large;
+}
+#card-3 .card-body .buttons a {
+  background-color: #FFBFBF;
+  font-family: "Asap", sans-serif;
+}
+
+footer {
+  background: #357F7E;
+  height: 7rem;
+}
+
+/*# sourceMappingURL=extrastyle.css.map */
