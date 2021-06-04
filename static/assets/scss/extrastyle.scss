@@ -79,17 +79,19 @@ $asap:'Asap', sans-serif;
 
     .card-body{
         height: 13rem;
+        width: 17rem;
         color: white;        
         align-self: end;
         margin-top: 8em;
-        border-radius: 20px;        
+        border-radius: 20px;      
     }
 }
 
 #card-1{   
     .card-body{ 
-        background-color: $primary;
-
+        background-color:rgb(53, 127, 126,  0.8);
+        margin-left: -8rem;
+        margin-right: 8rem;
         .card-title{
             color: $secondary_light;
             font-family: $asap;
@@ -104,7 +106,6 @@ $asap:'Asap', sans-serif;
 #card-2{   
     .card-body{ 
         background-color: $secondary_light;
-
         .card-title{
             color: $terciary;
             font-family: $asap;
@@ -124,7 +125,7 @@ $asap:'Asap', sans-serif;
     border-radius: 20px;
     .card-body{          
         width: 350px;
-        background-color: $primary;      
+        background-color: rgb(53, 127, 126,  0.8);
         margin-top: 16rem;
         margin-left: -2rem;
         border-radius: 20px;

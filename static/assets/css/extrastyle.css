@@ -62,6 +62,7 @@
 }
 .card-horizontal .card-body {
   height: 13rem;
+  width: 17rem;
   color: white;
   align-self: end;
   margin-top: 8em;
@@ -69,7 +70,9 @@
 }
 
 #card-1 .card-body {
-  background-color: #357F7E;
+  background-color: rgba(53, 127, 126, 0.8);
+  margin-left: -8rem;
+  margin-right: 8rem;
 }
 #card-1 .card-body .card-title {
   color: #F4BFA0;
@@ -101,7 +104,7 @@
 }
 #card-3 .card-body {
   width: 350px;
-  background-color: #357F7E;
+  background-color: rgba(53, 127, 126, 0.8);
   margin-top: 16rem;
   margin-left: -2rem;
   border-radius: 20px;
