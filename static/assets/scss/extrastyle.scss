@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 $primary: #357F7E;
+$primary_tranparent:rgb(53, 127, 126,  0.8);
 $primary_light: #46A4A3;
 $secondary:#F48476;
 $secondary_light:#F4BFA0;
@@ -8,146 +9,309 @@ $secondary_rose:#FFBFBF;
 $terciary:#FFE8C9;
 $asap:'Asap', sans-serif;
 
+#nav{
+    background-color: #357F7E!important;
+    color: $secondary;
+    font-family:$asap;
+}
 
-#headerTitle{    
-    .title{
-    font-family: $asap;
-    font-size: 3rem;
-    color:$terciary;
-    }
-    h5{
-        font-family: $asap;
-        color: white;        
-    }
-    .buttons{
-        display: flex;
+.navbar-nav{
+    .nav-item{
         a{
-        font-family: $asap;
-        background-color:$secondary_light;
-        align-items: flex-end;
+            font-family:$asap!important;
+            font-size: xx-large;
+        }
+        &:hover {            
+            text-decoration: underline;
         }
     }
 }
 
-.navbar {
-    background-color: #357F7E !important;
-}
-
-#sectionsNav{
-    ul{
-        li{
-            a{
-            font-size: 1rem;
-            font-family: $asap;
-            color:$terciary;
-            &:hover { 
-                text-decoration:underline;
-             }
-            }
+#index-header{
+    h1{
+        font-family:$asap;
+        color: $secondary_light;
+        font-size: 6rem;
+    }
+    h4{
+        font-family:$asap;
+        color: white;
+    }
+    h3{
+        font-family:$asap;
+        color: white;
+        font-weight: bold;
+    }
+    a{
+        background-color:$secondary;            
+        font-family:$asap;
+        margin-left: 40%;
+        margin-right: 50%;
+        &:hover {
+            background-color:$primary_light;
+            text-decoration: underline;
         }
     }
 }
 
-.text-overlay{
-    padding: 5%;
-    .title{
-    font-family: $asap;
-    color:$primary;
-    font-size: 4rem;
+#contac-header{
+    height:15rem;
+    background-color:$primary;
+    h1{        
+        color:$secondary;            
+        font-family:$asap;
+        text-transform: capitalize;
     }
 }
 
-.pre-footer-overlay{
-    padding: 6.5%;
-    .title{
-        font-family: $asap;
-        color:$secondary;
+#blog-header{
+    height:25rem;
+    background-color:$primary;
+    h1{        
+        color:$secondary;            
+        font-family:$asap;
+        text-transform: capitalize;
+        font-style:italic;
+        font-weight: bold;
+    }
+    p{
+        font-family:$asap;
+        font-size: x-large;
     }
 }
 
-.card{
-    box-shadow: none;
-}
-.card-img-bottom {
-    width: 50rem;
-    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
-}
-
-.card-horizontal {
-    display: flex;
-    flex: 1 1 auto;
-
-    .card-body{
-        height: 13rem;
-        width: 17rem;
-        color: white;        
-        align-self: end;
-        margin-top: 8em;
-        border-radius: 20px;      
+#form-box{
+    margin-top: 70px;
+    .card-header{
+        background: $secondary;
     }
-}
-
-#card-1{   
-    .card-body{ 
-        background-color:rgb(53, 127, 126,  0.8);
-        margin-left: -8rem;
-        margin-right: 8rem;
-        .card-title{
-            color: $secondary_light;
-            font-family: $asap;
-        }
-        .card-text{
-            color: white;
-            font-family: $asap;
+    h4{
+        font-family:$asap;
+    }
+    label{
+        font-family:$asap;
+    }
+    button{
+        background-color: $secondary;
+        font-family:$asap;
+        &:hover {
+            background-color:$primary_light;
+            text-decoration: underline;
         }
     }
 }
 
-#card-2{   
-    .card-body{ 
-        background-color: $secondary_light;
-        .card-title{
-            color: $terciary;
-            font-family: $asap;
-        }
-        .card-text{
-            color: white;
-            font-family: $asap;
-        }
+#presentation{
+    h2{
+        color: $primary;
+        font-family:$asap;
+    }
+    p{
+        color: black;
+        font-family:$asap;
+    }
+    button{
+        background-color: $secondary;
+        font-family:$asap;
     }
 }
 
-#card-3{
-    background-size: 100%;
-    background-repeat: no-repeat;
+.card-header-image {
+    img{
+        height: auto;
+    }
+}
+
+#card{
+    background-color: rgb(255, 255, 255, 3);
+    h4{
+        color: $primary;
+        font-family:$asap;
+    }
+    p{
+        color: black;
+        font-family:$asap;
+    }
+    a{
+        background-color:$secondary_rose;
+        font-family:$asap;
+        color: white;
+    }
+}
+
+.history{
+    height: 30%;
+    width: 80%;
+    background-color:$primary;
+    padding: 4%;
+    border-radius: 10%;
+    p{
+        font-family:$asap;
+        font-size: 20px;
+        color: white;
+    }
+}
+
+.slyderpar{
     width: 100%;
-    height: 27rem;
-    border-radius: 20px;
-    .card-body{          
-        width: 350px;
-        background-color: rgb(53, 127, 126,  0.8);
-        margin-top: 16rem;
-        margin-left: -2rem;
-        border-radius: 20px;
-        .card-title{
-            font-family: $asap;
+    height: 20%;
+    padding: 3%;
+    background-color:$primary;
+    h1{
+        font-family:$asap;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+.down-text{
+    margin-left: 16%;
+    width: 70%;
+    height: 20%;
+    background-color:$secondary;
+    padding: 3%;
+    border-radius: 25px;
+    h2{
+        font-family:$asap;
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
+#icon{
+    color:$primary;
+    font-size: 6rem;
+}
+
+.card-img-top{
+    border-radius: 25px;
+}
+
+#youtube{
+    a{
+        background-color:$secondary;            
+        font-family:$asap;            ;
+        &:hover {
+            background-color:$primary_light;
+            text-decoration: underline;
+        }
+    }
+}
+
+#blog-card{
+    h1{
+        color: $primary;
+        font-family:$asap;
+        font-weight: bold;
+    }
+    h3{
+        color: white;
+        font-family:$asap;
+        font-weight: bold;
+    }
+    p{
+        color: white;
+        font-family:$asap;
+    }
+    a{
+        font-family:$asap;
+        font-weight: bold;
+        text-decoration: none;
+        color: $secondary;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+#about-header{
+    height: 20em
+}
+#about-section{
+    .row{
+        margin-top: 1em;
+    }
+
+    h1{
+        color: $primary;
+        font-family:$asap;
+        font-weight: bold;
+    }
+    p{
+        font-family:$asap;
+        font-size: larger;
+    }
+
+    .card-blog{
+        width: 65%
+    }
+
+    .img-raised {
+        width: 75%;
+    }
+}
+
+.footer{
+    .followinsta{
+        width: 100%;
+        height: 25%;
+        background-color: $primary;
+        padding: 3%;
+        p{
+            font-family:$asap;
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: x-large;
+        }
+    }
+    .give-contac{
+        width: 100%;
+        height: 25%;
+        background-color:$primary_light;
+        padding: 3%;
+        p{
+            font-family:$asap;
             color: $secondary;
+            text-transform: uppercase;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: x-large;
         }
-        .card-text{
-            font-family: $asap;
-            color:white;
-            font-size: large;
-        }
-        .buttons{
-            a{
-                background-color: $secondary_rose;
-                font-family: $asap;
+        button{
+            background-color: $secondary_light;
+            font-family:$asap;            
+            &:hover {
+                background-color:#4E4C4C;
+                text-decoration: underline;
             }
         }
     }
-  }
+    .contac-footer{
+        width: 100%;
+        height: 25%;
+        background-color:#4E4C4C;
+        padding: 3%;
+        p{
+            font-family:$asap;
+            color: $secondary;
+            text-transform: uppercase;
+            text-align: center;
+            text-transform: capitalize;
+            font-size: x-large;
+        }
+        button{
+            background-color:$secondary;            
+            font-family:$asap;            ;
+            &:hover {
+                background-color:$primary_light;
+                text-decoration: underline;
+            }
+        }
+    }
 
-footer{
-    background:$primary;
-    height: 7rem;
+
 }

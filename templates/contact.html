@@ -1,0 +1,68 @@
+{% extends 'index.html' %}
+{% block title %}Contacto{% endblock %}
+
+{% block header %}
+<div id="contac-header" class="page-header header-filter">
+    <div class="container">
+        <h1 class="text-center">Contacto</h1>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="contact-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="card card-blog card-plain">
+                    <div class="card-header card-header-image">
+                        <img class="img" src="{{ url_for ('static', filename ='assets/img/Foto4.png')}}">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 ml-auto">
+                <div id="form-box" class="card card-contact card-raised">
+                    <form id="contact-form2" method="post">
+                        <div class="card-header text-center">
+                            <h4 class="card-title text-white">Contáctame</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group label-floating is-empty has-rose">
+                                        <label class="bmd-label-floating">Nombre</label>
+                                        <input type="text" name="email" class="form-control">
+                                        <span class="material-input"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group label-floating is-empty has-rose">
+                                        <label class="bmd-label-floating">Asunto</label>
+                                        <input type="email" name="email" class="form-control">
+                                        <span class="material-input"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group label-floating is-empty has-rose">
+                                        <label class="bmd-label-floating">Email</label>
+                                        <input type="email" name="email" class="form-control">
+                                        <span class="material-input"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group label-floating has-rose is-empty">
+                                <label for="exampleMessage" class="bmd-label-floating">Mensaje</label>
+                                <textarea name="message" class="form-control" id="exampleMessage" rows="6"></textarea>
+                                <span class="material-input"></span>
+                            </div>
+                        </div>
+                        <div class="card-footer justify-content-between">
+                            <button type="submit" class="btn btn-round pull-right">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
