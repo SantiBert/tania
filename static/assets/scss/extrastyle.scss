@@ -232,8 +232,8 @@ $asap:'Asap', sans-serif;
 #about-section{
     .row{
         margin-top: 1em;
-    }
 
+        
     h1{
         color: $primary;
         font-family:$asap;
@@ -251,6 +251,8 @@ $asap:'Asap', sans-serif;
     .img-raised {
         width: 75%;
     }
+    }
+
 }
 
 .footer{

@@ -208,19 +208,19 @@
 #about-section .row {
   margin-top: 1em;
 }
-#about-section h1 {
+#about-section .row h1 {
   color: #357F7E;
   font-family: "Asap", sans-serif;
   font-weight: bold;
 }
-#about-section p {
+#about-section .row p {
   font-family: "Asap", sans-serif;
   font-size: larger;
 }
-#about-section .card-blog {
+#about-section .row .card-blog {
   width: 65%;
 }
-#about-section .img-raised {
+#about-section .row .img-raised {
   width: 75%;
 }
 
